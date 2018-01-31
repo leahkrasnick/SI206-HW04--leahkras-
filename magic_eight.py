@@ -18,7 +18,7 @@ def check_question(user_q):
     if user_q[-1] == "?":
         return True
     else:
-        print ("I'm sorry, I can only answer questions."}
+        print ("I'm sorry, I can only answer questions.")
         return False
 
 
