@@ -13,3 +13,17 @@ def answer():
     "My sources say no", "Outlook not so good", "Very doubtful"]
     choose_num = randrange(19)
     return answer_list[choose_num]
+
+def check_question(user_q):
+    if user_q[-1] == "?":
+        return True
+    else:
+        print ("I'm sorry, I can only answer questions."}
+        return False
+
+
+magic_eight_ques = ask_question()
+while (magic_eight_ques != "quit"):
+    if (check_question(magic_eight_ques) == True):
+        print (answer())
+    magic_eight_ques = ask_question()
